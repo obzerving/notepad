@@ -1,0 +1,75 @@
+{
+  "intents": [
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "CatchAllIntent",
+      "slots": [
+        {
+          "name": "anythinga",
+          "type": "CATCHALL"
+        },
+        {
+          "name": "anythingb",
+          "type": "CATCHALL"
+        },
+        {
+          "name": "anythingc",
+          "type": "CATCHALL"
+        },
+        {
+          "name": "anythingd",
+          "type": "CATCHALL"
+        },
+        {
+          "name": "anythinge",
+          "type": "CATCHALL"
+        },
+        {
+          "name": "anythingf",
+          "type": "CATCHALL"
+        },
+        {
+          "name": "anythingg",
+          "type": "CATCHALL"
+        },
+        {
+          "name": "anythingh",
+          "type": "CATCHALL"
+        },
+        {
+          "name": "anythingi",
+          "type": "CATCHALL"
+        },
+        {
+          "name": "anythingj",
+          "type": "CATCHALL"
+        },
+        {
+          "name": "anythingk",
+          "type": "CATCHALL"
+        },
+        {
+          "name": "anythingl",
+          "type": "CATCHALL"
+        },
+        {
+          "name": "anythingm",
+          "type": "CATCHALL"
+        },
+        {
+          "name": "anythingn",
+          "type": "CATCHALL"
+        },
+        {
+          "name": "anythingo",
+          "type": "CATCHALL"
+        }
+      ]
+    }
+  ]
+}

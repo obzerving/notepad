@@ -1,0 +1,8 @@
+welcome: Welcome to notepad. Which notepad should I open?
+reprompt: I didn't understand that. What is the name of the notepad to open?
+askentry: What should I enter in it?
+reaskentry: Tell me what you would like to enter in the notepad.
+askmore: I'm ready for the next entry. What is it?
+reaskmore: You can make another entry in the notepad. Tell me what it is.
+cancel: Okay.
+stop: Okay.

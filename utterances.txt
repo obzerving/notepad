@@ -1,0 +1,15 @@
+CatchAllIntent {anythinga}
+CatchAllIntent {anythinga} {anythingb}
+CatchAllIntent {anythinga} {anythingb} {anythingc}
+CatchAllIntent {anythinga} {anythingb} {anythingc} {anythingd}
+CatchAllIntent {anythinga} {anythingb} {anythingc} {anythingd} {anythinge}
+CatchAllIntent {anythinga} {anythingb} {anythingc} {anythingd} {anythinge} {anythingf}
+CatchAllIntent {anythinga} {anythingb} {anythingc} {anythingd} {anythinge} {anythingf} {anythingg}
+CatchAllIntent {anythinga} {anythingb} {anythingc} {anythingd} {anythinge} {anythingf} {anythingg} {anythingh}
+CatchAllIntent {anythinga} {anythingb} {anythingc} {anythingd} {anythinge} {anythingf} {anythingg} {anythingh} {anythingi}
+CatchAllIntent {anythinga} {anythingb} {anythingc} {anythingd} {anythinge} {anythingf} {anythingg} {anythingh} {anythingi} {anythingj}
+CatchAllIntent {anythinga} {anythingb} {anythingc} {anythingd} {anythinge} {anythingf} {anythingg} {anythingh} {anythingi} {anythingj} {anythingk}
+CatchAllIntent {anythinga} {anythingb} {anythingc} {anythingd} {anythinge} {anythingf} {anythingg} {anythingh} {anythingi} {anythingj} {anythingk} {anythingl}
+CatchAllIntent {anythinga} {anythingb} {anythingc} {anythingd} {anythinge} {anythingf} {anythingg} {anythingh} {anythingi} {anythingj} {anythingk} {anythingl} {anythingm}
+CatchAllIntent {anythinga} {anythingb} {anythingc} {anythingd} {anythinge} {anythingf} {anythingg} {anythingh} {anythingi} {anythingj} {anythingk} {anythingl} {anythingm} {anythingn}
+CatchAllIntent {anythinga} {anythingb} {anythingc} {anythingd} {anythinge} {anythingf} {anythingg} {anythingh} {anythingi} {anythingj} {anythingk} {anythingl} {anythingm} {anythingn} {anythingo}
