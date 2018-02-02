@@ -35,32 +35,49 @@ The first four steps come from Bjorn Vuylsteker's tutorial at https://blog.craft
 1. Log onto https://pythonanywhere.com, select the Web tab, and create a new web app. Select Flask as the Python Web framework and Python 2.7 as the Python version. In his tutorial, Bjorn entered /home/*yourUserName*/mysite/alexa.py as the app's path, so I'll stick with that name.
 
 2. Select the Consoles tab, start a new bash console, and enter the following commands
+
    a. pip install --user flask-ask
+   
    b. pip install dropbox
 
 3. Select the Files tab
+
    a. Replace the contents of the file /home/*yourUserName*/mysite/alexa.py with the version in this repository.
+
    b. Upload the file templates.yaml in this repository to the /home/*yourUserName*/mysite/ directory
 
 
 5. Log onto https://www.dropbox.com/developers and create a new app
+
    a. Choose the Dropbox API (not Business API)
+
    b. Choose App folder access (There's no need for full dropbox access).
+
    c. Name your app (e.g. mynotepad).
+
    d. Create it
 
 6. The app info page has a Settings tab, which should already be selected. Here, you have the opportunity to change attributes, such as the folder name used by the app. What needs to done is
+
    a. Scroll down to the Generated access token section and click the Generate button.
+
    b. In the alexa.py file, replace the string Your_Token_Here with the token.
 
 7. Log onto https://developer.amazon.com and select the Alexa tab.
+
    a. Click the add a new skill button.
+
    b. The skill type is Custom Interaction Model
+
    c. The Name and Invocation Name are both Note Pad
+
    d. Switch to the Configuration Section
+
    e. Copy the contents of the intents.txt file in this repository to the "Intent Schema" field.
+
    f. Copy the contents of the utterances.txt file in this repository to the "Sample Utterances" field
-    f. As part of the "Configure the Skill" step, you will need to add the custom slot "CATCHALL" in the configuration section [The list for this custom slot is in this repository under CustomSlot.txt].
+
+   g. As part of the "Configure the Skill" step, you will need to add the custom slot "CATCHALL" in the configuration section [The list for this custom slot is in this repository under CustomSlot.txt].
 
 8. Try it out!
 
